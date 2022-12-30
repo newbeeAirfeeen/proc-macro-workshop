@@ -1,0 +1,197 @@
+Field {
+                            attrs: [
+                                Attribute {
+                                    pound_token: Pound,
+                                    style: Outer,
+                                    bracket_token: Bracket,
+                                    path: Path {
+                                        leading_colon: None,
+                                        segments: [
+                                            PathSegment {
+                                                ident: Ident {
+                                                    ident: "builder",
+                                                    span: #0 bytes(1041..1048),
+                                                },
+                                                arguments: None,
+                                            },
+                                        ],
+                                    },
+                                    tokens: TokenStream [
+                                        Group {
+                                            delimiter: Parenthesis,
+                                            stream: TokenStream [
+                                                Ident {
+                                                    ident: "each",
+                                                    span: #0 bytes(1049..1053),
+                                                },
+                                                Punct {
+                                                    ch: '=',
+                                                    spacing: Alone,
+                                                    span: #0 bytes(1054..1055),
+                                                },
+                                                Literal {
+                                                    kind: Str,
+                                                    symbol: "arg",
+                                                    suffix: None,
+                                                    span: #0 bytes(1056..1061),
+                                                },
+                                            ],
+                                            span: #0 bytes(1048..1062),
+                                        },
+                                    ],
+                                },
+                            ],
+                            vis: Inherited,
+                            ident: Some(
+                                Ident {
+                                    ident: "args",
+                                    span: #0 bytes(1068..1072),
+                                },
+                            ),
+                            colon_token: Some(
+                                Colon,
+                            ),
+                            ty: Path(
+                                TypePath {
+                                    qself: None,
+                                    path: Path {
+                                        leading_colon: None,
+                                        segments: [
+                                            PathSegment {
+                                                ident: Ident {
+                                                    ident: "Vec",
+                                                    span: #0 bytes(1074..1077),
+                                                },
+                                                arguments: AngleBracketed(
+                                                    AngleBracketedGenericArguments {
+                                                        colon2_token: None,
+                                                        lt_token: Lt,
+                                                        args: [
+                                                            Type(
+                                                                Path(
+                                                                    TypePath {
+                                                                        qself: None,
+                                                                        path: Path {
+                                                                            leading_colon: None,
+                                                                            segments: [
+                                                                                PathSegment {
+                                                                                    ident: Ident {
+                                                                                        ident: "String",
+                                                                                        span: #0 bytes(1078..1084),
+                                                                                    },
+                                                                                    arguments: None,
+                                                                                },
+                                                                            ],
+                                                                        },
+                                                                    },
+                                                                ),
+                                                            ),
+                                                        ],
+                                                        gt_token: Gt,
+                                                    },
+                                                ),
+                                            },
+                                        ],
+                                    },
+                                },
+                            ),
+                        },
+                        Comma,
+                        Field {
+                            attrs: [
+                                Attribute {
+                                    pound_token: Pound,
+                                    style: Outer,
+                                    bracket_token: Bracket,
+                                    path: Path {
+                                        leading_colon: None,
+                                        segments: [
+                                            PathSegment {
+                                                ident: Ident {
+                                                    ident: "set_env",
+                                                    span: #0 bytes(1093..1100),
+                                                },
+                                                arguments: None,
+                                            },
+                                        ],
+                                    },
+                                    tokens: TokenStream [
+                                        Group {
+                                            delimiter: Parenthesis,
+                                            stream: TokenStream [
+                                                Ident {
+                                                    ident: "each",
+                                                    span: #0 bytes(1101..1105),
+                                                },
+                                                Punct {
+                                                    ch: '=',
+                                                    spacing: Alone,
+                                                    span: #0 bytes(1106..1107),
+                                                },
+                                                Literal {
+                                                    kind: Str,
+                                                    symbol: "env",
+                                                    suffix: None,
+                                                    span: #0 bytes(1108..1113),
+                                                },
+                                            ],
+                                            span: #0 bytes(1100..1114),
+                                        },
+                                    ],
+                                },
+                            ],
+                            vis: Inherited,
+                            ident: Some(
+                                Ident {
+                                    ident: "env",
+                                    span: #0 bytes(1120..1123),
+                                },
+                            ),
+                            colon_token: Some(
+                                Colon,
+                            ),
+                            ty: Path(
+                                TypePath {
+                                    qself: None,
+                                    path: Path {
+                                        leading_colon: None,
+                                        segments: [
+                                            PathSegment {
+                                                ident: Ident {
+                                                    ident: "Vec",
+                                                    span: #0 bytes(1125..1128),
+                                                },
+                                                arguments: AngleBracketed(
+                                                    AngleBracketedGenericArguments {
+                                                        colon2_token: None,
+                                                        lt_token: Lt,
+                                                        args: [
+                                                            Type(
+                                                                Path(
+                                                                    TypePath {
+                                                                        qself: None,
+                                                                        path: Path {
+                                                                            leading_colon: None,
+                                                                            segments: [
+                                                                                PathSegment {
+                                                                                    ident: Ident {
+                                                                                        ident: "String",
+                                                                                        span: #0 bytes(1129..1135),
+                                                                                    },
+                                                                                    arguments: None,
+                                                                                },
+                                                                            ],
+                                                                        },
+                                                                    },
+                                                                ),
+                                                            ),
+                                                        ],
+                                                        gt_token: Gt,
+                                                    },
+                                                ),
+                                            },
+                                        ],
+                                    },
+                                },
+                            ),
+                        }
